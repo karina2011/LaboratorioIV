@@ -1,1 +1,0 @@
-Ejercicio realizado en clase
