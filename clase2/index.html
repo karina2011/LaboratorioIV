@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h3>Tablas</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>CIUDAD</th>
+                    <th>CARGO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adrian</td>
+                    <td>MDP</td>
+                    <td>profesor</td>
+                </tr>
+                <tr>
+                    <td>Karina</td>
+                    <td>MDP</td>
+                    <td>ayudante</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">soy footer</td>
+                    <td> algo</td>
+                </tr>
+            </tfoot>
+        </table>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Cant</th>
+                    <th>Descuento</th>
+                    <th>P/U</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2</td>
+                    <td>TV LED 40" </td>
+                    <td>20000</td>
+                    <td>40000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Descuento</td>
+                    <td>1200</td>
+                </tr>
+                <tr>
+                    <td colspan="3">IVA</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td colspan="3">TOTAL</td>
+                    <td>42000</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <br><br><br>
+    <div>
+        <h3>radio button</h3>
+        <label for="unDato">A</label>
+        <input type="radio" name="letra" id="unDato">
+        <label for="otroDato">B</label>
+        <input type="radio" name="letra" id="otroDato">
+        <label for="fin">C</label>
+        <input type="radio" name="letra" id="fin">
+    </div>
+    <br>
+    <div>
+        <h3>checkbox</h3>
+        <label for="unDato">A</label>
+        <input type="checkbox" name="letra" id="unDato">
+        <label for="otroDato">B</label>
+        <input type="checkbox" name="letra" id="otroDato">
+        <label for="fin">C</label>
+        <input type="checkbox" name="letra" id="fin">
+    </div>
+    <div>
+        <h3>etiqueta select sin multiple</h3>
+        <select name="s1" id="">
+            <option value="">option1</option>
+            <option value="">option2</option>
+            <option value="">option3</option>
+        </select>
+    </div>
+    <div> 
+        <h3>etiqueta select con multiple</h3>
+        <select name="s2" id="" multiple>
+            <option value="">option1</option>
+            <option value="">option2</option>
+            <option value="">option3</option>
+        </select>
+    </div>
+    <div>
+        <h3>textarea</h3>
+        <textarea name="ta1" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <h3>Formularios</h3>
+        <form action="primerPhp.php" method="POST">
+            <label for="texto">texto</label>
+            <input type="text" name="te1" id="">
+            <br>
+            <label for="password">password</label>
+            <input type="password" name="password" id="">
+            <br>
+            <label for="email">email</label>
+            <input type="email" name="em1" id="">
+            <br>
+            <label for="date">date</label>
+            <input type="date" name="da1" id="">
+            <br>
+            <label for="numero">numero</label>
+            <input type="number" name="nu1" id="">
+            <br>
+            <label for="button">button</label>
+            <button><img src="images.jpg" width=40 heigth=40 >imagen</button>
+            <br>
+            <label for="submit">submit</label>
+            <input type="submit" name="su1" id="">
+            
+        </form>
+    </div>
+</body>
+</html>
