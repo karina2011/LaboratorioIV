@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Ejemplo 1 de Tablas</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Ciudad</th>
+                <th>Pais</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Adrian</td>
+                <td>Mar del Plata</td>
+                <td>Argentina</td>
+            </tr>
+            <tr>
+                <td>Karina</td>
+                <td>Mar del Plata</td>
+                <td>Argentina</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Ejemplos de controles de formularios</h2>
+
+    <div>
+        <h3>checkbox</h3>
+        <label for="unDato">Musica</label>
+        <input type="checkbox" name="jobych" id="unDato">
+        <label for="otroDato">Deporte</label>
+        <input type="checkbox" name="jobych" id="otroDato">
+        <label for="fin">Politica</label>
+        <input type="checkbox" name="jobych" id="fin">
+    </div>
+
+    <div>
+        <h3>radio button</h3>
+        <label for="unDato">Musica</label>
+        <input type="radio" name="jobyrb" id="unDato">
+        <label for="otroDato">Deporte</label>
+        <input type="radio" name="jobyrb" id="otroDato">
+        <label for="fin">Politica</label>
+        <input type="radio" name="jobyrb" id="fin">
+    </div>
+
+    <div>
+        <h3>etiqueta select sin multiple</h3>
+        <select name="s1" id="">
+            <option value="">option1</option>
+            <option value="">option2</option>
+            <option value="">option3</option>
+        </select>
+    </div>
+    
+    <div>
+        <h3>etiqueta select con multiple</h3>
+        <select name="s2" id="" multiple>
+            <option value="">option1</option>
+            <option value="">option2</option>
+            <option value="">option3</option>
+        </select>
+    </div>
+
+    <div>
+        <h3>textarea</h3>
+        <textarea name="ta1" id="" cols="30" rows="10"></textarea>
+    </div>
+
+    <form action="" method="POST">
+        <br>
+        <label for="texto">texto</label>
+        <input type="text" name="te1" id="">
+        <br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="">
+        <br>
+        <label for="email">email</label>
+        <input type="email" name="em1" id="">
+        <br>
+        <label for="date">date</label>
+        <input type="date" name="da1" id="">
+        <br>
+        <label for="numero">numero</label>
+        <input type="number" name="nu1" id="">
+        <br>
+        <label for="button">button</label>
+        <button><img src="images.jpg" width=40 heigth=40>imagen</button>
+        <br>
+        <label for="submit">submit</label>
+        <input type="submit" name="su1" id="">
+    </form>
+</body>
+
+</html>
