@@ -7,9 +7,9 @@ echo '<pre>';
 print_r($_GET);
 echo '</pre>';
 
-function a($param1 = null, $param2 = null) {
+function a($param1 = false, $param2 = null) {
     echo 'Función a';
-    if($param1) echo " con $param1";
+    if(true) echo " con $param1";
     if($param2) echo " y $param2";
 }
 function b($param1 = null, $param2 = null, $param3 = null) {
@@ -23,8 +23,6 @@ function c($param1 = null) {
     echo 'Función c';
     if($param1) echo " con $param1";
 }
-
-echo empty(null);
 
 $action = $_GET['action'];
 

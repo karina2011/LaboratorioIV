@@ -67,13 +67,21 @@
             <div class="form-group">
                 <label for="">Action</label>
                 <select name="action" id="">
-                <option value="" disable></option>
-                    <option value="a">A</option>
-                    <option value="b">B</option>
-                    <option value="c">C</option>
+                    <option value="" disabled selected>
+                    Seleccionar país
+                    </option>
+                    <option value="a">
+                        Aasasasas
+                    </option>
+                    <option value="b">
+                        Bnbnbnbnb
+                    </option>
+                    <option value="c">
+                        Ciuiuiui
+                    </option>
                 </select>
             </div>
-            <div class="form-group">
+            <div class="form-group">+
                 <label for="">
                     <input type="checkbox" name="params[]" value="r1"> R1
                 </label>

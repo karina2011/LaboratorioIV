@@ -1,4 +1,5 @@
-<?php namespace Controllers;
+<?php 
+namespace Controllers;
 
 class Person {
 
