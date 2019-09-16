@@ -1,10 +1,12 @@
 <?php
 include('../header.php');
 
-$usr = $_POST['usr'];
-$pass = $_POST['pass'];
+if(isset($_POST)) {
+    $usr = $_POST['usr'];
+    $pass = $_POST['pass'];
+}
 
-if($usr == 'admin' && $pass == 'admin') {
+if(isset($usr) && $usr == 'admin' && isset($pass) && $pass == 'admin') {
 
     session_start();
 
@@ -12,12 +14,18 @@ if($usr == 'admin' && $pass == 'admin') {
 
     $_SESSION['usr'] = $newUser;
 
-    include('../biografia.php');
+    unset($_SESSION['pepe']);
+
+    $_SESSION['int'] = 4;
+
+    include('../biografia.php');     
 
 } else {
 
     $newUser = null;
 
-    include('../index.php');
+    $_SESSION['usr'] = null;
+
+    header('Location: ../index.php');
     
 }

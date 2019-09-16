@@ -4,7 +4,7 @@ use controllers\Personas as C_Personas;
 use models\Persona as M_Persona;
 
 
-include('header.php'); ?>
+include_once('header.php'); ?>
 
 
 <form method="POST" action="controllers/login.php">
